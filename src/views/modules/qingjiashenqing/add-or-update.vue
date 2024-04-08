@@ -206,7 +206,7 @@ export default {
     };
     return {
       addEditForm: {
-        "btnSaveFontColor": "rgba(45, 103, 81, 1)",
+        "btnSaveFontColor": "rgb(64,155,255)",
         "selectFontSize": "14px",
         "btnCancelBorderColor": "rgba(112, 112, 112, 1)",
         "inputBorderRadius": "0",
@@ -277,7 +277,7 @@ export default {
         "textareaFontSize": "14px",
         "selectBorderRadius": "0",
         "selectFontColor": "rgba(0, 0, 0, 1)",
-        "btnSaveBorderColor": "rgba(45, 103, 81, 1)",
+        "btnSaveBorderColor": "rgb(64,155,255)",
         "btnSaveBorderWidth": "4px"
       },
       id: '',

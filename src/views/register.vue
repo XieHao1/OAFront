@@ -432,7 +432,7 @@ body {
           border-style: solid;
           border-color: rgba(255, 0, 0, 0);
           border-radius: 0 8px 8px 0;
-          background-color: rgba(45, 103, 81, 1);
+          background-color: rgb(64,155,255);
           box-shadow: 0 0 6px rgba(255, 0, 0, 0);
         }
       }
@@ -449,7 +449,7 @@ body {
         border-style: solid;
         border-color: #409EFF;
         border-radius: 44px;
-        background-color: rgba(45, 103, 81, 1);
+        background-color: rgb(64,155,255);
         box-shadow: 0 0 6px #2D6751;
       }
 
@@ -459,11 +459,11 @@ body {
         width: 88px;
         height: 44px;
         line-height: 44px;
-        color: rgba(45, 103, 81, 1);
+        color: rgb(64,155,255);
         font-size: 14px;
         border-width: 1px;
         border-style: solid;
-        border-color: rgba(45, 103, 81, 1);
+        border-color: rgb(64,155,255);
         border-radius: 44px;
         background-color: #FFF;
         box-shadow: 0 0 6px #2D6751;

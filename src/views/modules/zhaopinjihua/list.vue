@@ -256,7 +256,7 @@ export default {
       shForm: {},
       chartVisiable: false,
       addOrUpdateFlag:false,
-      contents:{"searchBtnFontColor":"rgba(255, 255, 255, 1)","pagePosition":"2","inputFontSize":"14px","inputBorderRadius":"8px","tableBtnDelFontColor":"rgba(255, 255, 255, 1)","tableBtnIconPosition":"1","searchBtnHeight":"40px","tableBgColor":"rgba(255, 255, 255, 1)","inputIconColor":"#C0C4CC","searchBtnBorderRadius":"44px","tableStripe":true,"btnAdAllWarnFontColor":"rgba(255, 255, 255, 1)","tableBtnDelBgColor":"rgba(45, 103, 81, 1)","searchBtnIcon":"0","tableSize":"small","searchBtnBorderStyle":"solid","text":{"padding":"0","boxShadow":"0 0 0px rgba(0,0,0,.1)","margin":"15% auto 0","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(247, 247, 247, 0)","color":"rgba(45, 103, 81, 1)","borderRadius":"6px","borderWidth":"0","width":"100%","lineHeight":"64px","fontSize":"60px","borderStyle":"solid"},"tableSelection":true,"searchBtnBorderWidth":"4px","tableContentFontSize":"16px","searchBtnBgColor":"rgba(45, 103, 81, 1)","inputTitleSize":"14px","btnAdAllBorderColor":"rgba(232, 255, 246, 1)","pageJumper":false,"btnAdAllIconPosition":"1","searchBoxPosition":"1","tableBtnDetailFontColor":"rgba(255, 255, 255, 1)","tableBtnHeight":"40px","pagePager":true,"searchBtnBorderColor":"rgba(232, 255, 246, 1)","tableHeaderFontColor":"rgba(0, 0, 0, 1)","inputTitle":"0","tableBtnBorderRadius":"44px","btnAdAllFont":"1","btnAdAllDelFontColor":"rgba(255, 255, 255, 1)","tableBtnIcon":"1","btnAdAllHeight":"auto","btnAdAllWarnBgColor":"rgba(45, 103, 81, 1)","btnAdAllBorderWidth":"4px","tableStripeFontColor":"#606266","tableBtnBorderStyle":"solid","inputHeight":"40px","btnAdAllBorderRadius":"44px","btnAdAllDelBgColor":"rgba(45, 103, 81, 1)","pagePrevNext":true,"btnAdAllAddBgColor":"rgba(45, 103, 81, 1)","searchBtnFont":"1","tableIndex":true,"btnAdAllIcon":"1","tableSortable":true,"pageSizes":true,"tableFit":true,"pageBtnBG":true,"searchBtnFontSize":"14px","tableBtnEditBgColor":"rgba(45, 103, 81, 1)","box":{"padding":"20px 10px","boxShadow":"0 0 6px rgba(0,0,0,0)","flag":"1","backgroundImage":"http://codegen.caihongy.cn/20220121/257f585b9b0d4a46a44745dc9c46c800.png","background":"#fff"},"inputBorderWidth":"1px","inputFontPosition":"1","inputFontColor":"#333","pageEachNum":10,"tableHeaderBgColor":"rgba(155, 200, 183, 1)","inputTitleColor":"#333","btnAdAllBoxPosition":"1","tableBtnDetailBgColor":"rgba(45, 103, 81, 1)","inputIcon":"1","searchBtnIconPosition":"1","btnAdAllFontSize":"14px","inputBorderStyle":"solid","tableHoverFontColor":"rgba(0, 0, 0, 1)","inputBgColor":"#fff","pageStyle":false,"pageTotal":true,"btnAdAllAddFontColor":"rgba(255, 255, 255, 1)","tableBtnFont":"1","tableContentFontColor":"rgba(0, 0, 0, 1)","inputBorderColor":"#DCDFE6","tableShowHeader":true,"tableHoverBgColor":"rgba(155, 200, 183, 0.5)","tableBtnFontSize":"14px","tableBtnBorderColor":"rgba(232, 255, 246, 1)","inputIconPosition":"1","tableBorder":true,"btnAdAllBorderStyle":"solid","tableBtnBorderWidth":"4px","tableStripeBgColor":"#F5F7FA","tableBtnEditFontColor":"rgba(255, 255, 255, 1)","tableAlign":"center"},
+      contents:{"searchBtnFontColor":"rgba(255, 255, 255, 1)","pagePosition":"2","inputFontSize":"14px","inputBorderRadius":"8px","tableBtnDelFontColor":"rgba(255, 255, 255, 1)","tableBtnIconPosition":"1","searchBtnHeight":"40px","tableBgColor":"rgba(255, 255, 255, 1)","inputIconColor":"#C0C4CC","searchBtnBorderRadius":"44px","tableStripe":true,"btnAdAllWarnFontColor":"rgba(255, 255, 255, 1)","tableBtnDelBgColor":"rgb(64,155,255)","searchBtnIcon":"0","tableSize":"small","searchBtnBorderStyle":"solid","text":{"padding":"0","boxShadow":"0 0 0px rgba(0,0,0,.1)","margin":"15% auto 0","borderColor":"rgba(0,0,0,.3)","backgroundColor":"rgba(247, 247, 247, 0)","color":"rgb(64,155,255)","borderRadius":"6px","borderWidth":"0","width":"100%","lineHeight":"64px","fontSize":"60px","borderStyle":"solid"},"tableSelection":true,"searchBtnBorderWidth":"4px","tableContentFontSize":"16px","searchBtnBgColor":"rgb(64,155,255)","inputTitleSize":"14px","btnAdAllBorderColor":"rgba(232, 255, 246, 1)","pageJumper":false,"btnAdAllIconPosition":"1","searchBoxPosition":"1","tableBtnDetailFontColor":"rgba(255, 255, 255, 1)","tableBtnHeight":"40px","pagePager":true,"searchBtnBorderColor":"rgba(232, 255, 246, 1)","tableHeaderFontColor":"rgba(0, 0, 0, 1)","inputTitle":"0","tableBtnBorderRadius":"44px","btnAdAllFont":"1","btnAdAllDelFontColor":"rgba(255, 255, 255, 1)","tableBtnIcon":"1","btnAdAllHeight":"auto","btnAdAllWarnBgColor":"rgb(64,155,255)","btnAdAllBorderWidth":"4px","tableStripeFontColor":"#606266","tableBtnBorderStyle":"solid","inputHeight":"40px","btnAdAllBorderRadius":"44px","btnAdAllDelBgColor":"rgb(64,155,255)","pagePrevNext":true,"btnAdAllAddBgColor":"rgb(64,155,255)","searchBtnFont":"1","tableIndex":true,"btnAdAllIcon":"1","tableSortable":true,"pageSizes":true,"tableFit":true,"pageBtnBG":true,"searchBtnFontSize":"14px","tableBtnEditBgColor":"rgb(64,155,255)","box":{"padding":"20px 10px","boxShadow":"0 0 6px rgba(0,0,0,0)","flag":"1","backgroundImage":"http://codegen.caihongy.cn/20220121/257f585b9b0d4a46a44745dc9c46c800.png","background":"#fff"},"inputBorderWidth":"1px","inputFontPosition":"1","inputFontColor":"#333","pageEachNum":10,"tableHeaderBgColor":"rgba(155, 200, 183, 1)","inputTitleColor":"#333","btnAdAllBoxPosition":"1","tableBtnDetailBgColor":"rgb(64,155,255)","inputIcon":"1","searchBtnIconPosition":"1","btnAdAllFontSize":"14px","inputBorderStyle":"solid","tableHoverFontColor":"rgba(0, 0, 0, 1)","inputBgColor":"#fff","pageStyle":false,"pageTotal":true,"btnAdAllAddFontColor":"rgba(255, 255, 255, 1)","tableBtnFont":"1","tableContentFontColor":"rgba(0, 0, 0, 1)","inputBorderColor":"#DCDFE6","tableShowHeader":true,"tableHoverBgColor":"rgba(155, 200, 183, 0.5)","tableBtnFontSize":"14px","tableBtnBorderColor":"rgba(232, 255, 246, 1)","inputIconPosition":"1","tableBorder":true,"btnAdAllBorderStyle":"solid","tableBtnBorderWidth":"4px","tableStripeBgColor":"#F5F7FA","tableBtnEditFontColor":"rgba(255, 255, 255, 1)","tableAlign":"center"},
       layouts: '',
 
 
@@ -644,7 +644,7 @@ export default {
 		border-style: solid;
 		border-color: rgba(232, 255, 246, 1);
 		border-radius: 44px;
-		background-color: rgba(45, 103, 81, 1);
+		background-color: rgb(64,155,255);
 	}
 	
 	& /deep/ .el-button--primary {
@@ -655,7 +655,7 @@ export default {
 		border-style: solid;
 		border-color: rgba(232, 255, 246, 1);
 		border-radius: 44px;
-		background-color: rgba(45, 103, 81, 1);
+		background-color: rgb(64,155,255);
 	}
 	
 	& /deep/ .el-button--danger {
@@ -666,7 +666,7 @@ export default {
 		border-style: solid;
 		border-color: rgba(232, 255, 246, 1);
 		border-radius: 44px;
-		background-color: rgba(45, 103, 81, 1);
+		background-color: rgb(64,155,255);
 	}
 
     & /deep/ .el-button {

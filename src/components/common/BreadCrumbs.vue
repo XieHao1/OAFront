@@ -1,8 +1,17 @@
 <template>
-  <el-breadcrumb class="app-breadcrumb" separator="/" style="height:50px;backgroundColor:rgba(155, 200, 183, 1);borderRadius:0;padding:0px 20px 0px 20px;boxShadow:0px 0px 0px #f903d4;borderWidth:0;borderStyle:dotted solid double dashed;borderColor:#ff0000;">
-    <transition-group name="breadcrumb" class="box" :style="1==1?'justifyContent:flex-start;':1==2?'justifyContent:center;':'justifyContent:flex-end;'">
+  <el-breadcrumb class="app-breadcrumb" separator="/"
+                 style="height:50px;
+                 backgroundColor:rgb(64,155,255);
+                 borderRadius:0;padding:0px 20px 0px 20px;
+                 boxShadow:0px 0px 0px #f903d4;
+                 borderWidth:0;
+                 borderStyle:dotted solid double dashed;
+                 borderColor:#ff0000;">
+    <transition-group name="breadcrumb" class="box"
+                      :style="1==1?'justifyContent:flex-start;':1==2?'justifyContent:center;':'justifyContent:flex-end;'">
       <el-breadcrumb-item v-for="(item,index) in levelList" :key="item.path">
-        <span v-if="item.redirect==='noRedirect'||index==levelList.length-1" class="no-redirect" style="color:rgba(0, 0, 0, 1)">{{ item.name }}</span>
+        <span v-if="item.redirect==='noRedirect'||index==levelList.length-1" class="no-redirect"
+              style="color:rgba(0, 0, 0, 1)">{{ item.name }}</span>
         <a v-else @click.prevent="handleLink(item)">{{ item.name }}</a>
       </el-breadcrumb-item>
     </transition-group>
@@ -11,7 +20,8 @@
 
 <script>
 import pathToRegexp from 'path-to-regexp'
-import { generateTitle } from '@/utils/i18n'
+import {generateTitle} from '@/utils/i18n'
+
 export default {
   data() {
     return {
@@ -34,7 +44,7 @@ export default {
       let route = this.$route
       let matched = route.matched.filter(item => item.meta)
       const first = matched[0]
-      matched = [{ path: '/index' }].concat(matched)
+      matched = [{path: '/index'}].concat(matched)
 
       this.levelList = matched.filter(item => item.meta)
     },
@@ -47,12 +57,12 @@ export default {
     },
     pathCompile(path) {
       // To solve this problem https://github.com/PanJiaChen/vue-element-admin/issues/561
-      const { params } = this.$route
+      const {params} = this.$route
       var toPath = pathToRegexp.compile(path)
       return toPath(params)
     },
     handleLink(item) {
-      const { redirect, path } = item
+      const {redirect, path} = item
       if (redirect) {
         this.$router.push(redirect)
         return
@@ -60,23 +70,23 @@ export default {
       this.$router.push(path)
     },
     breadcrumbStyleChange(val) {
-      this.$nextTick(()=>{
-        document.querySelectorAll('.app-breadcrumb .el-breadcrumb__separator').forEach(el=>{
+      this.$nextTick(() => {
+        document.querySelectorAll('.app-breadcrumb .el-breadcrumb__separator').forEach(el => {
           el.innerText = "/"
           el.style.color = "rgba(0, 0, 0, 1)"
         })
-        document.querySelectorAll('.app-breadcrumb .el-breadcrumb__inner a').forEach(el=>{
+        document.querySelectorAll('.app-breadcrumb .el-breadcrumb__inner a').forEach(el => {
           el.style.color = "rgba(129, 129, 129, 1)"
         })
-        document.querySelectorAll('.app-breadcrumb .el-breadcrumb__inner .no-redirect').forEach(el=>{
+        document.querySelectorAll('.app-breadcrumb .el-breadcrumb__inner .no-redirect').forEach(el => {
           el.style.color = "rgba(0, 0, 0, 1)"
         })
 
         let str = "2"
-        if(2 == str) {
+        if (2 == str) {
           let headHeight = "60px"
           headHeight = parseInt(headHeight) + 10 + 'px'
-          document.querySelectorAll('.app-breadcrumb').forEach(el=>{
+          document.querySelectorAll('.app-breadcrumb').forEach(el => {
             el.style.marginTop = headHeight
           })
         }

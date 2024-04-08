@@ -4,7 +4,16 @@
       <div v-for="item in menuList" :key="item.roleName" v-if="role==item.roleName" class="menulist-item">
         <div class="menulistImg" v-if="false && 2 == 2">
           <el-image
-              :style='{"padding":"0","boxShadow":"0 0 6px rgba(0,0,0,0)","margin":"0","borderColor":"rgba(0,0,0,0)","borderRadius":"0","borderWidth":"0","width":"100%","borderStyle":"solid","height":"auto"}'
+              :style='{
+                  "padding":"0",
+                  "boxShadow":"0 0 6px rgba(0,0,0,0)",
+                  "margin":"0",
+                  "borderColor":"rgba(0,0,0,0)",
+                  "borderRadius":"0",
+                  "borderWidth":"0",
+                  "width":"100%",
+                  "borderStyle":"solid",
+                  "height":"auto"}'
               v-if="'http://codegen.caihongy.cn/20201021/cc7d45d9c8164b58b18351764eba9be1.jpg'"
               src="http://codegen.caihongy.cn/20201021/cc7d45d9c8164b58b18351764eba9be1.jpg" fit="cover"/>
         </div>
@@ -295,7 +304,7 @@ export default {
     border-width: 0 !important;
     border-style: solid !important;
     border-color: rgba(0, 0, 0, .3) !important;
-    background: transparent url("http://codegen.caihongy.cn/20220121/109353a745084f649a72bb0566968c70.png") no-repeat top !important;
+    //background: transparent url("http://codegen.caihongy.cn/20220121/109353a745084f649a72bb0566968c70.png") no-repeat top !important;
     box-shadow: 0 0 0px rgba(30, 144, 255, .2);
     box-sizing: border-box;
   }

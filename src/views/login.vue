@@ -209,7 +209,7 @@ export default {
     border-width: 0;
     border-style: solid;
     border-color: rgba(64, 158, 255, 1);
-    background-color: rgb(64,155,255);
+    background-color: rgb(64, 155, 255);
     box-shadow: 0 0 0px rgba(255, 0, 0, .1);
   }
 

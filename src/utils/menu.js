@@ -149,26 +149,27 @@ const menu = {
             //员工
             {
                 "backMenu": [
+                    // {
+                    //     "menu": "企业管理",
+                    //     "child": [
+                    //         {
+                    //             "appFrontIcon": "cuIcon-goods",
+                    //             "buttons": ["新增", "查看", "修改", "删除"],
+                    //             "menu": "部门管理",
+                    //             "menuJump": "列表",
+                    //             "tableName": "bumen"
+                    //         },
+                    //         {
+                    //             "appFrontIcon": "cuIcon-news",
+                    //             "buttons": ["新增", "查看", "修改", "删除"],
+                    //             "menu": "员工管理",
+                    //             "menuJump": "列表",
+                    //             "tableName": "yuangong"
+                    //         }
+                    //     ]
+                    // }
+                    // ,
                     {
-                        "menu": "企业管理",
-                        "child": [
-                            {
-                                "appFrontIcon": "cuIcon-goods",
-                                "buttons": ["新增", "查看", "修改", "删除"],
-                                "menu": "部门管理",
-                                "menuJump": "列表",
-                                "tableName": "bumen"
-                            },
-                            {
-                                "appFrontIcon": "cuIcon-news",
-                                "buttons": ["新增", "查看", "修改", "删除"],
-                                "menu": "员工管理",
-                                "menuJump": "列表",
-                                "tableName": "yuangong"
-                            }
-                        ]
-                    }
-                    , {
                         "menu": "申请事项",
                         "child": [
                             {

@@ -157,7 +157,7 @@
                            :header-align="contents.tableAlign"
                            label="审核状态">
             <template slot-scope="scope">
-              <span style="margin-right:10px">{{ scope.row.sfsh == '是' ? '通过' : '未通过' }}</span>
+              <span style="margin-right:10px">{{ scope.row.sfsh == '否' ? '待审核' : scope.row.sfsh }}</span>
             </template>
           </el-table-column>
           <el-table-column :sortable="contents.tableSortable" :align="contents.tableAlign"
@@ -242,8 +242,8 @@
       <el-form ref="form" :model="form" label-width="80px">
         <el-form-item label="审核状态">
           <el-select v-model="shForm.sfsh" placeholder="审核状态">
-            <el-option label="通过" value="是"></el-option>
-            <el-option label="不通过" value="否"></el-option>
+            <el-option label="通过" value="通过"></el-option>
+            <el-option label="不通过" value="不通过"></el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="内容">
@@ -774,7 +774,7 @@ export default {
     border-style: solid;
     border-color: rgba(232, 255, 246, 1);
     border-radius: 44px;
-    background-color: rgb(64,155,255);
+    background-color: rgb(64, 155, 255);
   }
 
   & /deep/ .el-button--primary {
@@ -785,7 +785,7 @@ export default {
     border-style: solid;
     border-color: rgba(232, 255, 246, 1);
     border-radius: 44px;
-    background-color: rgb(64,155,255);
+    background-color: rgb(64, 155, 255);
   }
 
   & /deep/ .el-button--danger {
@@ -796,7 +796,7 @@ export default {
     border-style: solid;
     border-color: rgba(232, 255, 246, 1);
     border-radius: 44px;
-    background-color: rgb(64,155,255);
+    background-color: rgb(64, 155, 255);
   }
 
   & /deep/ .el-button {
